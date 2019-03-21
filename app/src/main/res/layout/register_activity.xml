@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+
+    <ImageView
+        android:id="@+id/en_logo_img"
+        android:layout_width="196dp"
+        android:layout_height="99dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/inputs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="@id/en_logo_img"
+        app:layout_constraintRight_toRightOf="@id/en_logo_img"
+        app:layout_constraintTop_toBottomOf="@id/en_logo_img">
+
+        <LinearLayout
+            android:id="@+id/linear_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="start"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/en_regname_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="@string/Name"
+                android:textColor="@color/gray_background"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/en_regname_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@android:color/white"
+                android:textSize="17sp"
+                android:hint="@string/hindname"
+                android:inputType="textPersonName"
+                android:textColorHint="@android:color/white"
+                android:theme="@style/FormFontWhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical"
+            app:layout_constraintLeft_toLeftOf="@id/linear_password"
+            app:layout_constraintRight_toRightOf="@id/linear_password"
+            app:layout_constraintTop_toBottomOf="@id/linear_password">
+
+            <TextView
+                android:id="@+id/en_regmailtxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mail"
+                android:textColor="@color/gray_background"
+                android:textSize="17sp"
+                />
+
+            <EditText
+                android:id="@+id/en_regmail_edtxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@android:color/white"
+                android:textSize="17sp"
+                android:hint="@string/hidmail"
+                android:textColorHint="@android:color/white"
+                android:inputType="textPersonName"
+                android:theme="@style/FormFontWhite"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical"
+            app:layout_constraintLeft_toLeftOf="@id/linear_name"
+            app:layout_constraintRight_toRightOf="@id/linear_name"
+            app:layout_constraintTop_toBottomOf="@id/linear_name">
+
+            <TextView
+                android:id="@+id/en_regpass_txt"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/password"
+                android:textColor="@color/gray_background"
+                android:textSize="17sp"
+                android:theme="@style/FormFontWhite"/>
+
+            <EditText
+                android:id="@+id/en_regpass_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="17sp"
+                android:hint="@string/hindpass"
+                android:inputType="textPassword"
+                android:textColorHint="@android:color/white"
+                android:password="true"
+                android:textColor="@android:color/white"
+                android:theme="@style/FormFontWhite" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_Registerlogin"
+        android:layout_width="177dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/shape"
+        android:text="LOGIN"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        app:layout_constraintLeft_toLeftOf="@id/inputs"
+        app:layout_constraintRight_toRightOf="@id/inputs"
+        app:layout_constraintTop_toBottomOf="@id/inputs" />
+
+    <TextView
+        android:id="@+id/en_regsucss_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/en_sucesstxt"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Registerlogin" />
+
+</android.support.constraint.ConstraintLayout>

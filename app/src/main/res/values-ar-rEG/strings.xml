@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ميمى كار</string>
+    <string name="my_ads">أعلاناتي</string>
+    <string name="profile">الصفحه الشخصيه</string>
+    <string name="me_messages">رسائلي</string>
+    <string name="settings">الضبظ</string>
+    <string name="faq">اسئله شائعه</string>
+    <string name="etesal"> اتصال</string>
+    <string name="esharat"> الاشعارات</string>
+    <string name="taeked"> تأكيد</string>
+    <string name="add_ad_accessory">اضافه اعلان كماليات و قطع غيار</string>
+    <string name="name_of_ad">اسم الأعلان</string>
+    <string name="details_of_ad">تفاصيل الأعلان</string>
+    <string name="add_new_car_ad">اضافه اعلان سيارة</string>
+    <string name="add_new_ad">اضافه اعلان جديد</string>
+    <string name="mail">الايميل</string>
+    <string name="password"> البريد الالكترونى</string>
+    <string name="Name"> الاسم</string>
+    <string name="logbutoon">دخول</string>
+    <string name="en_sucesstxt"> > لديك حسابك الخاص ! تسجيل الدخول</string>
+    <string name="hindpass">من فضلك أدخل كلمة المرور </string>
+    <string name="hindname"> من فضلك أدخل الاسم</string>
+    <string name="cartxtmark"> سيارة BMW تتميز بالسرعة والكفاءه </string>
+    <string name="diconnect"> غير متصل</string>
+    <string name="connect"> متصل</string>
+    <string name="face">فيسبوك </string>
+    <string name="Tweet"> تويتر</string>
+    <string name="carstypename">نوع السيارة</string>
+    <string name="carstypessize">الحجم</string>
+    <string name="carstypescolor">اللون</string>
+    <string name="carstypesref">امتداد</string>
+    <string name="carstypesprice">السعر</string>
+    <string name="message_send">إرسال رسالة</string>
+    <string name="date_of_message">تاريخ الرسالة</string>
+    <string name="sidedafaa">الدفع</string>
+    <string name="call_our">اتصل بنا</string>
+    <string name="navigation_drawer_open">فتح الخيارات</string>
+    <string name="navigation_drawer_close">غلق الخيارات</string>
+    <string name="home_page">الصفحه الرئيسيه</string>
+    <string name="car_name">ماركه السياره</string>
+    <string name="send_message">ارسال</string>
+    <string name="car_type">نوع السياره</string>
+    <string name="car_status">حاله السياره</string>
+    <string name="car_lime">نوع الجير</string>
+    <string name="car_model">الموديل</string>
+    <string name="check_status">حاله الفحص</string>
+    <string name="images_check">صور الفحص</string>
+    <string name="show_images">عرض الصور</string>
+    <string name="payment_method">طريقه الدفع</string>
+    <string name="walk_in_km">الممشي</string>
+    <string name="price">السعر</string>
+    <string name="date_of_examination">تاريخ الفحص</string>
+    <string name="city">المديته</string>
+    <string name="add_images">اضافة الصور</string>
+    <string name="add">اضافه</string>
+    <string name="carstypebutton"> إضافة إعلان جديد</string>
+    <string name="grdkmal"> كماليات</string>
+    <string name="usedcar">  سيارات مستعملة</string>
+    <string name="information">استفسارات ومعلومات</string>
+    <string name="pieceschanged"> قطع غيار</string>
+    <string name="hint_car_type">نوع السيارة</string>
+    <string name="hint_car_state">حالة السيارة</string>
+    <string name="hint_lime_type">نوع الجير</string>
+    <string name="hint_car_model">موديل السيارة</string>
+    <string name="hint_city">المدينة</string>
+    <string name="hint_kilometers_per_hour">السرعه بالكيلومتر</string>
+    <string name="hint_price">السعر</string>
+    <string name="hint_payment_method">طريقة الدفع</string>
+    <string name="hint_examination_date">تاريخ الانتهاء</string>
+    <string name="search"> بحث</string>
+    <string name="kamlyiat_details"> تفاصيل</string>
+    <string name="kamlyiat_moredetails"> الارسال بلوتوث استيريو موسيقى مع اخراج الصوت لمكبرات الصوت او سماعات الرأس</string>
+    <string name="kamlyiat_price">$12354</string>
+    <string name="btn_kamalyiat_sendmsg"> إرسال رسالة</string>
+    <string name="btn_addphoto"> إغلاق</string>
+   <string name="hintemail">من فضلك أدخل الايميل</string>
+    <string name="searchbutton">بحث</string>
+    <string name="home"> الصفحة الرئيسيه</string>
+
+
+
+
+
+
+</resources>

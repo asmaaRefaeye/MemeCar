@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:\Computer Science\Android\memeCar\Apps.iml" filepath="D:\Computer Science\Android\memeCar\Apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/memeCar.iml" filepath="$PROJECT_DIR$/memeCar.iml" />
+    </modules>
+  </component>
+</project>

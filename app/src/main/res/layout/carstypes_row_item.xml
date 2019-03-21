@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+        <ImageView
+            android:id="@+id/carstypes_Img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/car_placeholder"/>
+
+    <TextView
+        android:id="@+id/carstypes_name"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:text="@string/carstypename"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/carstypes_ref"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/carstypes_ref"
+        android:layout_width="48dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/carstypesref"
+        app:layout_constraintStart_toEndOf="@+id/carstypes_Img"
+        app:layout_constraintTop_toBottomOf="@+id/carstypes_name"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:id="@+id/carstypes_size"
+        android:layout_width="48dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/carstypessize"
+        app:layout_constraintStart_toEndOf="@+id/carstypes_Img"
+        app:layout_constraintTop_toBottomOf="@+id/carstypes_ref"
+        android:layout_marginLeft="16dp" />
+
+
+    <TextView
+        android:id="@+id/carstypes_colors"
+        android:layout_width="48dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/carstypescolor"
+        app:layout_constraintStart_toEndOf="@+id/carstypes_Img"
+        app:layout_constraintTop_toBottomOf="@+id/carstypes_size"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:id="@+id/carstypes_price"
+        android:layout_width="48dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="96dp"
+        android:text="@string/carstypesprice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/carstypes_ref"
+        app:layout_constraintTop_toBottomOf="@+id/carstypes_name" />
+
+
+
+</android.support.constraint.ConstraintLayout>

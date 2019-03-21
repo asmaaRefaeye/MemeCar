@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/main_search"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layoutDirection="rtl"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@color/gray_cell_background"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="@string/car_name"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <!--<View-->
+                        <!--android:layout_width="0.7dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:background="@color/view_color" />-->
+
+                        <TextView
+                            android:id="@+id/car_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="@string/car_name"
+                            android:textColor="@color/dark_gray" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20.5dp"
+                            android:layout_marginRight="10dp"
+                            android:text="@string/car_type"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <!--<View-->
+                        <!--android:layout_width="0.7dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:background="@color/view_color" />-->
+
+                        <TextView
+                            android:id="@+id/car_type"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="@string/hint_car_type"
+                            android:textColor="@color/dark_gray" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@color/gray_cell_background"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="16.5dp"
+                            android:layout_marginRight="10dp"
+                            android:text="@string/car_status"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <!--<View-->
+                        <!--android:layout_width="0.7dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:background="@color/view_color" />-->
+
+                        <TextView
+                            android:id="@+id/car_status"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="@string/hint_car_state"
+                            android:textColor="@color/green" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginRight="18dp"
+                            android:text="@string/car_lime"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <!--<View-->
+                        <!--android:layout_width="0.7dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:background="@color/view_color" />-->
+
+                        <TextView
+                            android:id="@+id/car_lime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="@string/hint_lime_type"
+                            android:textColor="@color/dark_gray" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@color/gray_cell_background"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="43.5dp"
+                            android:layout_marginRight="18dp"
+                            android:text="@string/car_model"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <!--<View-->
+                        <!--android:layout_width="0.7dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:background="@color/view_color" />-->
+
+                        <TextView
+                            android:id="@+id/car_model"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="@string/hint_car_model"
+                            android:textColor="@color/dark_gray" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="10dp"
+                            android:text="@string/check_status"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <!--<View-->
+                        <!--android:layout_width="0.7dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:background="@color/view_color" />-->
+
+                        <TextView
+                            android:id="@+id/check_status"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="@string/check_status"
+                            android:textColor="@color/dark_gray" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@color/gray_cell_background"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="14.5dp"
+                            android:layout_marginRight="10dp"
+                            android:text="@string/images_check"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <!--<View-->
+                        <!--android:layout_width="0.7dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:background="@color/view_color" />-->
+
+
+                        <Button
+                            android:id="@+id/image_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="42dp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/orange_corner"
+                            android:text="@string/show_images"
+                            android:textColor="@color/white" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="17.5dp"
+                            android:layout_marginRight="10dp"
+                            android:text="@string/payment_method"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <!--<View-->
+                        <!--android:layout_width="0.7dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:background="@color/view_color" />-->
+
+                        <TextView
+                            android:id="@+id/payment_method"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="@string/hint_payment_method"
+                            android:textColor="@color/green" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@color/gray_cell_background"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="45.5dp"
+                            android:layout_marginRight="18dp"
+                            android:text="@string/walk_in_km"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <!--<View-->
+                        <!--android:layout_width="0.7dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:background="@color/view_color" />-->
+
+                        <TextView
+                            android:id="@+id/walk_in_km"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="@string/hint_kilometers_per_hour"
+                            android:textColor="@color/dark_gray" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="56dp"
+                            android:layout_marginRight="18dp"
+                            android:text="@string/price"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <!--<View-->
+                        <!--android:layout_width="0.7dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:background="@color/view_color" />-->
+
+
+                        <!--<View-->
+                        <!--android:layout_width="0.7dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:background="@color/view_color" />-->
+
+
+                        <TextView
+                            android:id="@+id/price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="@string/hint_price"
+                            android:textColor="@color/dark_gray" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:background="@color/gray_cell_background"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/date_of_examination"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <!--<View-->
+                <!--android:layout_width="0.7dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:background="@color/view_color" />-->
+
+                <TextView
+                    android:id="@+id/date_of_examination"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/hint_examination_date"
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:background="@color/orange"
+                android:text="@string/send_message"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <View
+        android:layout_width="0.7dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="92dp"
+        android:background="@color/view_color" />
+
+
+</RelativeLayout>
+
+
+
+

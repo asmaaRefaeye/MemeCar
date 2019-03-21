@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Meme</string>
+    <string name="app_.name">MemyCar</string>
+    <string name="mail">E-mail</string>
+    <string name="hidmail">Enter your email</string>
+    <string name="hindpass">Enter your password </string>
+    <string name="hindname"> Enter your Name</string>
+    <string name="password">Password</string>
+    <string name="logbutoon">LOGIN</string>
+    <string name="Name">Name </string>
+    <string name="en_sucesstxt"> Already Have An Account ! signin</string>
+    <string name="cartxtmark"> BMW M4 COUPE , 19LM , Automatic , Navigation , Head up display ,Seat heating .... </string>
+    <string name="diconnect"> Disconnect</string>
+    <string name="connect"> Connect</string>
+    <string name="face">FaceBook </string>
+    <string name="Tweet"> Tweeter</string>
+    <string name="carstypename">Car Name</string>
+    <string name="carstypessize">Size</string>
+    <string name="carstypescolor">Color</string>
+    <string name="carstypesref">Ref</string>
+    <string name="carstypesprice">price</string>
+    <string name="my_ads">My adds</string>
+    <string name="message_send">message_send</string>
+    <string name="date_of_message">Date of message</string>
+    <string name="sidedafaa">pay</string>
+    <string name="profile">Profile</string>
+    <string name="home"> Home Page</string>
+    <string name="me_messages">My message</string>
+    <string name="settings">settings</string>
+    <string name="call_our">Call Us</string>
+    <string name="faq">FAQ</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="home_page">Home Page</string>
+    <string name="car_name">Car Brand</string>
+    <string name="send_message">Send</string>
+    <string name="car_type">Car Type</string>
+    <string name="car_status">Car state</string>
+    <string name="car_lime">lime type</string>
+    <string name="car_model">Car Model</string>
+    <string name="check_status">check state</string>
+    <string name="images_check">check Image</string>
+    <string name="show_images">show Image</string>
+    <string name="payment_method">payment method</string>
+    <string name="walk_in_km">Number of Kilometers</string>
+    <string name="price">Price</string>
+    <string name="date_of_examination">Examination Date</string>
+    <string name="city">City</string>
+    <string name="add_images">Add Photo</string>
+    <string name="add">Add</string>
+    <string name="carstypebutton"> Add new advertsment</string>
+    <string name="grdkmal"> other Parts</string>
+    <string name="usedcar">Used Cars</string>
+    <string name="information">Information and Questions</string>
+    <string name="pieceschanged"> Pieces Changed</string>
+    <string name="add_ad_accessory">Add new Accessory and spare parts</string>
+    <string name="name_of_ad">Name of ad</string>
+    <string name="details_of_ad">Details of ad</string>
+    <string name="add_new_car_ad">Add new car ad</string>
+    <string name="add_new_ad">Add new ad</string>
+    <string name="carspeed">car speed</string>
+    <string name="car_speedhr">car speed_hr</string>
+    <string name="date_of_buy">Date of buy</string>
+    <string name="car_speed_km">car speed_Km</string>
+    <string name="hint_car_type">Car Type</string>
+    <string name="hint_car_state">Car State</string>
+    <string name="hint_lime_type">Lime type</string>
+    <string name="hint_car_model">Car Model</string>
+    <string name="hint_city">City</string>
+    <string name="hint_kilometers_per_hour">kilometers per hour</string>
+    <string name="hint_price">Price</string>
+    <string name="hint_payment_method">Payment method</string>
+    <string name="hint_examination_date">Examination Date</string>
+    <string name="search">search</string>
+    <string name="hint_carbrand">Car Brand</string>
+    <string name="kamlyiat_details"> Details</string>
+    <string name="kamlyiat_moredetails"> send by bulutoth getout sounds using headphons</string>
+    <string name="kamlyiat_price">$12354</string>
+    <string name="btn_kamalyiat_sendmsg"> Send Message</string>
+    <string name="btn_addphoto"> close</string>
+    <string name="splashbutton"> Next</string>
+
+
+
+    <string name="thirdSplash"> ضمان أكثر ..... ثقة أكثر</string>
+
+    <string name="splashtxt"> أهلا بك في تطبيق ميمي كار     ...
+        أكبر منصة للسيارات المضمونة  اختار  ... وخلى الباقى علينا</string>
+    <string name="hintemail">Enter your Email</string>
+    <string name="searchbutton">Search</string>
+
+
+</resources>
